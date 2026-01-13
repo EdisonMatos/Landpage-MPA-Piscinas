@@ -106,7 +106,7 @@ export default function ProductsList() {
                   button1Link={HthProducts.cloros.hthCloros6.fispqLink}
                   category={HthProducts.cloros.hthCloros6.category}
                 />
-                <ImgCodeDescButtonCard
+                {/* <ImgCodeDescButtonCard
                   img={HthProducts.cloros.hthCloros7.img}
                   code={HthProducts.cloros.hthCloros7.code}
                   description={HthProducts.cloros.hthCloros7.description}
@@ -114,7 +114,7 @@ export default function ProductsList() {
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros7.fispqLink}
                   category={HthProducts.cloros.hthCloros7.category}
-                />
+                /> */}
                 <ImgCodeDescButtonCard
                   img={HthProducts.cloros.hthCloros8.img}
                   code={HthProducts.cloros.hthCloros8.code}
@@ -150,6 +150,24 @@ export default function ProductsList() {
                   button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.cloros.hthCloros11.fispqLink}
                   category={HthProducts.cloros.hthCloros11.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros12.img}
+                  code={HthProducts.cloros.hthCloros12.code}
+                  description={HthProducts.cloros.hthCloros12.description}
+                  alt={HthProducts.cloros.hthCloros12.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros12.fispqLink}
+                  category={HthProducts.cloros.hthCloros12.category}
+                />
+                <ImgCodeDescButtonCard
+                  img={HthProducts.cloros.hthCloros13.img}
+                  code={HthProducts.cloros.hthCloros13.code}
+                  description={HthProducts.cloros.hthCloros13.description}
+                  alt={HthProducts.cloros.hthCloros13.description}
+                  button1Label="Baixar Ficha FISPQ"
+                  button1Link={HthProducts.cloros.hthCloros13.fispqLink}
+                  category={HthProducts.cloros.hthCloros13.category}
                 />
               </>
             )}
