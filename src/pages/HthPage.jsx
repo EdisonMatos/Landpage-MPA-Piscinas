@@ -1,10 +1,10 @@
-import NavbarSectionProducts from "../components/sections/NavbarSectionProducts";
-import FooterProducts from "../components/sections/FooterProducts";
-import ProductsList from "../components/sections/ProductsList";
-import HeroProducts from "../components/sectionElements/HeroProducts";
-import BackToTopButton from "../components/interactives/BackToTopButton";
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import imgLogo from "../assets/imgs/brands/hthLogo.webp";
+import NavbarSectionProducts from '../components/sections/NavbarSectionProducts'
+import FooterProducts from '../components/sections/FooterProducts'
+import ProductsList from '../components/sections/ProductsList'
+import HeroProducts from '../components/sectionElements/HeroProducts'
+import BackToTopButton from '../components/interactives/BackToTopButton'
+import FloatingWhatsappButton from '../components/interactives/FloatingWhatsappButton'
+import imgLogo from '../assets/imgs/brands/hthLogo.webp'
 
 export default function HthPage() {
   return (
@@ -23,5 +23,5 @@ export default function HthPage() {
         <FooterProducts />
       </div>
     </div>
-  );
+  )
 }
