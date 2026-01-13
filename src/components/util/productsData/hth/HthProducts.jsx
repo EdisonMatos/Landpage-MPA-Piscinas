@@ -34,6 +34,7 @@ import hthAuxiliares19 from '../../../../assets/imgs/products/hth/auxiliares/19h
 import hthAuxiliares20 from '../../../../assets/imgs/products/hth/auxiliares/20hthAuxiliares.png'
 import hthAuxiliares21 from '../../../../assets/imgs/products/hth/auxiliares/21hthAuxiliares.png'
 
+
 const HthProducts = {
   cloros: {
     hthCloros1: {
