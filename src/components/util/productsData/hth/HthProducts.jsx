@@ -34,7 +34,6 @@ import hthAuxiliares19 from '../../../../assets/imgs/products/hth/auxiliares/19h
 import hthAuxiliares20 from '../../../../assets/imgs/products/hth/auxiliares/20hthAuxiliares.png'
 import hthAuxiliares21 from '../../../../assets/imgs/products/hth/auxiliares/21hthAuxiliares.png'
 
-
 const HthProducts = {
   cloros: {
     hthCloros1: {
@@ -42,7 +41,7 @@ const HthProducts = {
       img: hthCloros1,
       code: 2031,
       description: 'HTH CLORO GRANULADO ADITIVADO 10 EM 1 (BD10,0K)',
-      fispqLink: '',
+      fispqLink: 'não possui fispq',
       category: 'cloros',
     },
     hthCloros2: {
@@ -50,39 +49,40 @@ const HthProducts = {
       img: hthCloros2,
       code: 2010,
       description: 'HTH CLORO GRANULADO TRADICIONAL 65,0% (BD 10,0K)',
-      fispqLink: '',
+      fispqLink: 'não possui fispq',
       category: 'cloros',
     },
-    hthCloros3: {
-      key: 22,
-      img: hthCloros3,
-      code: 2096,
-      description: 'HTH CLORO GRANULADO ADITIVADO 10 EM 1 (SC 1,0K)',
-      fispqLink: '',
-      category: 'cloros',
-    },
-    hthCloros4: {
-      key: 23,
-      img: hthCloros4,
-      code: 2026,
-      description: 'HTH CLORO GRANULADO ADITIVADO 10 EM 1 (BD 2,5K)',
-      fispqLink: '',
-      category: 'cloros',
-    },
-    hthCloros5: {
-      key: 24,
-      img: hthCloros5,
-      code: 2000,
-      description: 'HTH CLORO GRANULADO TRADICIONAL 65,0% (SC 1,0K)',
-      fispqLink: '',
-      category: 'cloros',
-    },
+    // hthCloros3: {
+    //   key: 22,
+    //   img: hthCloros3,
+    //   code: 2096,
+    //   description: 'HTH CLORO GRANULADO ADITIVADO 10 EM 1 (SC 1,0K)',
+    //   fispqLink: 'não possui fispq',
+    //   category: 'cloros',
+    // },
+    // hthCloros4: {
+    //   key: 23,
+    //   img: hthCloros4,
+    //   code: 2026,
+    //   description: 'HTH CLORO GRANULADO ADITIVADO 10 EM 1 (BD 2,5K)',
+    //   fispqLink: 'não possui fispq',
+    //   category: 'cloros',
+    // },
+    // hthCloros5: {
+    //   key: 24,
+    //   img: hthCloros5,
+    //   code: 2000,
+    //   description: 'HTH CLORO GRANULADO TRADICIONAL 65,0% (SC 1,0K)',
+    //   fispqLink: 'não possui fispq',
+    //   category: 'cloros',
+    // },
     hthCloros6: {
       key: 27,
       img: hthCloros6,
       code: 6014,
       description: 'HTH FLUTUADOR ADVANCED PEQUENO',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/6c2b1a8aa8eebf2b58b7b4bc24d0678a.pdf',
       category: 'cloros',
     },
     hthCloros7: {
@@ -90,7 +90,8 @@ const HthProducts = {
       img: hthCloros7,
       code: 6020,
       description: 'PACE FLUTUADOR ADVANCED GRANDE',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/6c2b1a8aa8eebf2b58b7b4bc24d0678a.pdf',
       category: 'cloros',
     },
     hthCloros8: {
@@ -98,7 +99,8 @@ const HthProducts = {
       img: hthCloros8,
       code: 2020,
       description: 'PACE DICLORO ESTABILIZADO 60,0% (BD 10,0K)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/35a9ee7ee87d432d05c43b5d970482c2.pdf',
       category: 'cloros',
     },
     hthCloros9: {
@@ -106,7 +108,8 @@ const HthProducts = {
       img: hthCloros9,
       code: 2050,
       description: 'PACE DICLORO AÇÃO TOTAL (BD 10,0K)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/6d3789f5a953f3d216a6213ac38eabdf.pdf',
       category: 'cloros',
     },
     hthCloros10: {
@@ -114,7 +117,8 @@ const HthProducts = {
       img: hthCloros10,
       code: 3010,
       description: 'PACE TABLETE TRIPLA AÇÃO 200G',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/f01abb56b5ea48254cbc3accc046e24e.pdf',
       category: 'cloros',
     },
     hthCloros11: {
@@ -122,7 +126,7 @@ const HthProducts = {
       img: hthCloros11,
       code: 3000,
       description: 'PACE TABLETE COMUM 200G',
-      fispqLink: '',
+      fispqLink: 'não possui fispq',
       category: 'cloros',
     },
     hthCloros12: {
@@ -130,14 +134,15 @@ const HthProducts = {
       img: hthCloros12,
       code: 2039,
       description: 'PACE DICLORO COMBATE (BD 10,0K)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/50e96b26611196c44fb18cfd0b00fec9.pdf',
       category: 'cloros',
     },
     hthCloros13: {
       key: 34,
       img: hthCloros13,
       code: 6012,
-      description: '',
+      description: 'HTH FLUTUADOR ADVANCED GRANDE',
       fispqLink: '',
       category: 'cloros',
     },
@@ -148,7 +153,8 @@ const HthProducts = {
       img: hthAuxiliares1,
       code: 1010,
       description: 'HTH ALGICIDA CHOQUE (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8a0f507f96ad44cad33484cb5ed22167.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares2: {
@@ -156,7 +162,8 @@ const HthProducts = {
       img: hthAuxiliares2,
       code: 1015,
       description: 'HTH ALGICIDA CHOQUE (GL 5,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8a0f507f96ad44cad33484cb5ed22167.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares3: {
@@ -164,7 +171,8 @@ const HthProducts = {
       img: hthAuxiliares3,
       code: 1001,
       description: 'HTH PREVINE ÁGUA VERDE (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares4: {
@@ -172,7 +180,8 @@ const HthProducts = {
       img: hthAuxiliares4,
       code: 1005,
       description: 'HTH PREVINE ÁGUA VERDE (GL 5,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares5: {
@@ -180,7 +189,8 @@ const HthProducts = {
       img: hthAuxiliares5,
       code: 1002,
       description: 'HTH REFIL PREVINE ÁGUA VERDE (RF 0,9L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares6: {
@@ -188,7 +198,8 @@ const HthProducts = {
       img: hthAuxiliares6,
       code: 1012,
       description: 'HTH REFIL ALGICIDA CHOQUE (RF 0,9L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8a0f507f96ad44cad33484cb5ed22167.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares7: {
@@ -196,7 +207,8 @@ const HthProducts = {
       img: hthAuxiliares7,
       code: 4000,
       description: 'HTH CLARIFICA MAXFLOC (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/954113859b433b98a38d3bb3a118f6bb.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares8: {
@@ -204,7 +216,8 @@ const HthProducts = {
       img: hthAuxiliares8,
       code: 4005,
       description: 'HTH CLARIFICA MAXFLOC (GL 5,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/954113859b433b98a38d3bb3a118f6bb.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares9: {
@@ -212,7 +225,8 @@ const HthProducts = {
       img: hthAuxiliares9,
       code: 4015,
       description: 'HTH SOS ÁGUA TURVA (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/bf5f1a25beea1d1ddecd0ee1c87f05f3.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares10: {
@@ -220,7 +234,8 @@ const HthProducts = {
       img: hthAuxiliares10,
       code: 4003,
       description: 'HTH REFIL REDUZ ASPIRAÇÃO (RF 0,9L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8d754e04e0e79028d601b7fa808b3271.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares11: {
@@ -228,7 +243,8 @@ const HthProducts = {
       img: hthAuxiliares11,
       code: 4010,
       description: 'HTH REDUZ ASPIRAÇÃO (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8d754e04e0e79028d601b7fa808b3271.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares12: {
@@ -236,7 +252,7 @@ const HthProducts = {
       img: hthAuxiliares12,
       code: 4004,
       description: 'HTH REFIL ULTRACLEAR (RF 0,9L)',
-      fispqLink: '',
+      fispqLink: 'não possui fispq',
       category: 'auxiliares',
     },
     hthAuxiliares13: {
@@ -244,7 +260,7 @@ const HthProducts = {
       img: hthAuxiliares13,
       code: 4020,
       description: 'HTH ULTRACLEAR (FR 1,0L)',
-      fispqLink: '',
+      fispqLink: 'não possui fispq',
       category: 'auxiliares',
     },
     hthAuxiliares14: {
@@ -252,7 +268,8 @@ const HthProducts = {
       img: hthAuxiliares14,
       code: 5015,
       description: 'HTH SOLUÇÃO ÁGUA DE POÇO (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares15: {
@@ -260,7 +277,8 @@ const HthProducts = {
       img: hthAuxiliares15,
       code: 5010,
       description: 'HTH ELEVADOR ALCALINIDADE (SC 2,0K)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/069537b90be50dcd10e8550e6b97685d.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares16: {
@@ -268,7 +286,8 @@ const HthProducts = {
       img: hthAuxiliares16,
       code: 5035,
       description: 'HTH REDUTOR DE PH/ALCALINIDADE EXTRA FORTE (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/344851f814b09939432b26c8e3e3004a.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares17: {
@@ -276,7 +295,8 @@ const HthProducts = {
       img: hthAuxiliares17,
       code: 6181,
       description: 'HTH ELIMINA OLEOSIDADE (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/ad9256485898e1d024e23b49f83ef71f.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares18: {
@@ -284,7 +304,8 @@ const HthProducts = {
       img: hthAuxiliares18,
       code: 5251,
       description: 'HTH ELEVADOR DE PH LIQUIDO {FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/abd62832a8d2980b375af17e6990a754.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares19: {
@@ -292,7 +313,8 @@ const HthProducts = {
       img: hthAuxiliares19,
       code: 5254,
       description: 'HTH ELEVADOR DE PH PÓ (SC 1,5K)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/857530e68bf1e0c4050abf22ab221e98.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares20: {
@@ -300,7 +322,8 @@ const HthProducts = {
       img: hthAuxiliares20,
       code: 6010,
       description: 'HTH LIMPA BORDAS (FR 1,0L)',
-      fispqLink: '',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/bc6b0a747137ade4041b85fceb6732cf.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares21: {
@@ -308,7 +331,8 @@ const HthProducts = {
       img: hthAuxiliares21,
       code: 6035,
       description: 'HTH FITA TESTE CL/PH/AT (BT C/ 25)',
-      fispqLink: 'não possui fispq',
+      fispqLink:
+        'https://hth.com.br/upload/downloads/46ea3f4100d326cfe3098f229786327e.pdf',
       category: 'auxiliares',
     },
   },
