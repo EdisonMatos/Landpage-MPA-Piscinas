@@ -41,7 +41,7 @@ const HthProducts = {
       img: hthCloros1,
       code: 2031,
       description: 'HTH CLORO GRANULADO ADITIVADO 10 EM 1 (BD10,0K)',
-      fispqLink: 'não possui fispq',
+      fispqLink: 'https://hth.com.br/file/9ee89c478e5fd1239effef5d9235b665.pdf',
       category: 'cloros',
     },
     hthCloros2: {
@@ -49,7 +49,7 @@ const HthProducts = {
       img: hthCloros2,
       code: 2010,
       description: 'HTH CLORO GRANULADO TRADICIONAL 65,0% (BD 10,0K)',
-      fispqLink: 'não possui fispq',
+      fispqLink: 'https://hth.com.br/file/6e093197a09cff73df31b9638912e98f.pdf',
       category: 'cloros',
     },
     // hthCloros3: {
@@ -126,7 +126,8 @@ const HthProducts = {
       img: hthCloros11,
       code: 3000,
       description: 'PACE TABLETE COMUM 200G',
-      fispqLink: 'não possui fispq',
+      fispqLink:
+        'https://www.cloropace.com.br/wp-content/uploads/2025/08/FDS_Pace-Tricloro.pdf',
       category: 'cloros',
     },
     hthCloros12: {
@@ -172,7 +173,7 @@ const HthProducts = {
       code: 1001,
       description: 'HTH PREVINE ÁGUA VERDE (FR 1,0L)',
       fispqLink:
-        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
+        'https://hth.com.br/upload/downloads/2988c37f1ed759980b7cbfc54db77626.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares4: {
@@ -181,7 +182,7 @@ const HthProducts = {
       code: 1005,
       description: 'HTH PREVINE ÁGUA VERDE (GL 5,0L)',
       fispqLink:
-        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
+        'https://hth.com.br/upload/downloads/2988c37f1ed759980b7cbfc54db77626.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares5: {
@@ -190,7 +191,7 @@ const HthProducts = {
       code: 1002,
       description: 'HTH REFIL PREVINE ÁGUA VERDE (RF 0,9L)',
       fispqLink:
-        'https://hth.com.br/upload/downloads/8656d10c2324a43508ea89c4ec41ff39.pdf',
+        'https://hth.com.br/upload/downloads/2988c37f1ed759980b7cbfc54db77626.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares6: {
@@ -260,7 +261,7 @@ const HthProducts = {
       img: hthAuxiliares13,
       code: 4020,
       description: 'HTH ULTRACLEAR (FR 1,0L)',
-      fispqLink: 'não possui fispq',
+      fispqLink: 'https://hth.com.br/file/FDS_HTH%20Ultra-Clear.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares14: {
@@ -331,8 +332,7 @@ const HthProducts = {
       img: hthAuxiliares21,
       code: 6035,
       description: 'HTH FITA TESTE CL/PH/AT (BT C/ 25)',
-      fispqLink:
-        'https://hth.com.br/upload/downloads/46ea3f4100d326cfe3098f229786327e.pdf',
+      fispqLink: 'não possui fispq',
       category: 'auxiliares',
     },
   },
