@@ -253,7 +253,7 @@ const HthProducts = {
       img: hthAuxiliares12,
       code: 4004,
       description: 'HTH REFIL ULTRACLEAR (RF 0,9L)',
-      fispqLink: 'não possui fispq',
+      fispqLink: 'https://hth.com.br/file/FDS_HTH%20Ultra-Clear.pdf',
       category: 'auxiliares',
     },
     hthAuxiliares13: {

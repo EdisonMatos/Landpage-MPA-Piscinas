@@ -302,7 +302,7 @@ export default function ProductsList() {
                     HthProducts.auxiliares.hthAuxiliares12.description
                   }
                   alt={HthProducts.auxiliares.hthAuxiliares12.description}
-                  button1Label="Não possui Ficha FISPQ"
+                  button1Label="Baixar Ficha FISPQ"
                   button1Link={HthProducts.auxiliares.hthAuxiliares12.fispqLink}
                   category={HthProducts.auxiliares.hthAuxiliares12.category}
                 />
