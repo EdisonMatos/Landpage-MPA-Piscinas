@@ -42,18 +42,21 @@ export default function ImportPage() {
   return (
     <div>
       <NavbarSection />
-      <HeroSection />
-      <AboutUs />
-      <Numbers />
-      <OurProducts />
-      <AvoidAccidents />
-      <CtaWhatsapp />
-      <Courses />
-      {carouselComponent}
-      <FrequentlyAskedQuestions />
-      <BackToTopButton />
-      <FloatingWhatsappButton />
-      <Footer />
+      <main>
+        {' '}
+        <HeroSection />
+        <AboutUs />
+        <Numbers />
+        <OurProducts />
+        <AvoidAccidents />
+        <CtaWhatsapp />
+        <Courses />
+        {carouselComponent}
+        <FrequentlyAskedQuestions />
+        <BackToTopButton />
+        <FloatingWhatsappButton />
+        <Footer />
+      </main>
     </div>
   )
 }
