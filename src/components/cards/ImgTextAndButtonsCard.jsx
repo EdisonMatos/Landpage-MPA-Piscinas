@@ -20,7 +20,7 @@ export default function ImgTextAndButtonsCard(props) {
             src={img}
             alt={alt}
             width={135}
-            height={135}
+            height={200}
             className="max-h-[90px] max-w-[150px]"
           />
         </div>
