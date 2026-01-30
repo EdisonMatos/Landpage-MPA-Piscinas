@@ -35,7 +35,7 @@ export default function FooterProducts() {
               alt="Logo MPA Piscinas"
               src={mpaLogo}
               width={109}
-              height={115}
+              height={200}
               className="w-[109px] h-[115px]"
             ></img>
             <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
