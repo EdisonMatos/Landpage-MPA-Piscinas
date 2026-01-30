@@ -21,7 +21,7 @@ export default function ImgTextAndButtonsCard(props) {
             alt={alt}
             width={135}
             height={200}
-            className="max-h-[90px] max-w-[150px]"
+            className="max-h-[130px] max-w-[150px]"
           />
         </div>
       </MotionDivLeftToRight>
