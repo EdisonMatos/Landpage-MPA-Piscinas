@@ -1,26 +1,26 @@
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
-import ImagesGalleryHero from "../interactives/ImagesGalleryHero";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import slide1 from "../../assets/banners/hero/slide1.webp";
-import slide2 from "../../assets/banners/hero/slide2.webp";
-import slide3 from "../../assets/banners/hero/slide3.webp";
-import slide4 from "../../assets/banners/hero/slide4.webp";
-import slide5 from "../../assets/banners/hero/slide5.webp";
-import slide6 from "../../assets/banners/hero/slide6.webp";
-import slide7 from "../../assets/banners/hero/slide7.webp";
-import slide8 from "../../assets/banners/hero/slide8.webp";
-import bgImage from "../../assets/importAssets/bg2.webp";
-import whatsappNumber from "../../abstractions/whats";
+import MotionDivLeftToRight from '../animation/MotionDivLeftToRight'
+import WhatsAppIcon from '../../assets/importAssets/WhatsAppIcon.webp'
+import ImagesGalleryHero from '../interactives/ImagesGalleryHero'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import slide1 from '../../assets/banners/hero/slide1.webp'
+import slide2 from '../../assets/banners/hero/slide2.webp'
+import slide3 from '../../assets/banners/hero/slide3.webp'
+import slide4 from '../../assets/banners/hero/slide4.webp'
+import slide5 from '../../assets/banners/hero/slide5.webp'
+import slide6 from '../../assets/banners/hero/slide6.webp'
+import slide7 from '../../assets/banners/hero/slide7.webp'
+import slide8 from '../../assets/banners/hero/slide8.webp'
+import bgImage from '../../assets/importAssets/bg2.webp'
+import whatsappNumber from '../../abstractions/whats'
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`
 
 export default function HeroSection() {
   return (
     <div className="font-mainFont" id="home">
       <div
         className="w-full bg-center bg-cover"
-        style={{ backgroundImage: "url(" + bgImage + ")" }}
+        style={{ backgroundImage: 'url(' + bgImage + ')' }}
       >
         <div className="flex items-center">
           <div className="w-full text-white justify-evenly">
@@ -47,13 +47,15 @@ export default function HeroSection() {
                     <div className="flex justify-center w-full desktop1:justify-start">
                       <button
                         onClick={() =>
-                          window.open(whatsappContactLink, "_blank")
+                          window.open(whatsappContactLink, '_blank')
                         }
                         className="flex flex-row items-center justify-around w-auto h-16 transition rounded-[40px] p-6 bg-red-700 hover:bg-red-900"
                       >
                         <div className="flex p-4 text-center items-center">
                           <img
                             src={WhatsAppIcon}
+                            width={10}
+                            height={10}
                             className="h-[36px] w-[36px] mr-[24px]"
                             alt="WhatsApp Icon"
                           />
@@ -85,5 +87,5 @@ export default function HeroSection() {
         </div>
       </div>
     </div>
-  );
+  )
 }

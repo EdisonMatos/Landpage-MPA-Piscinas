@@ -1,12 +1,12 @@
-import { Link } from "react-scroll";
-import mpaLogo from "../../assets/importAssets/Logo.webp";
-import { Phone, Mail } from "lucide-react";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import MotionDivUpToDown from "../animation/MotionDivUpToDown";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
-import whatsappNumber from "../../abstractions/whats";
+import { Link } from 'react-scroll'
+import mpaLogo from '../../assets/importAssets/Logo.webp'
+import { Phone, Mail } from 'lucide-react'
+import MotionDivLeftToRight from '../animation/MotionDivLeftToRight'
+import MotionDivUpToDown from '../animation/MotionDivUpToDown'
+import MotionDivRightToLeft from '../animation/MotionDivRightToLeft'
+import whatsappNumber from '../../abstractions/whats'
 
-const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`;
+const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`
 
 function Footer() {
   return (
@@ -17,6 +17,8 @@ function Footer() {
             <img
               alt="Logo MPA Piscinas"
               src={mpaLogo}
+              width={109}
+              height={115}
               className="w-[109px] h-[115px]"
             ></img>
             <p className="full">Na sua piscinas fazemos tudo, você nada!</p>
@@ -163,14 +165,14 @@ function Footer() {
               target="_blank"
               href="https://www.paperstreet.com.br"
             >
-              {" "}
+              {' '}
               Gostaria de ter um site como este? Clique aqui
             </a>
           </p>
         </MotionDivUpToDown>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
