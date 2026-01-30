@@ -16,7 +16,13 @@ export default function ImgTextAndButtonsCard(props) {
     <div className="w-full tablet1:w-[45%] desktop1:w-[29%] min-h-[270px] bg-white p-[15px] my-[14px] rounded-[10px] flex flex-col gap-[15px] justify-between">
       <MotionDivLeftToRight>
         <div className="flex justify-center items-center h-[125px] phone3:h-[80px] tablet1:h-[125px]">
-          <img src={img} alt={alt} className="max-h-[90px] max-w-[150px]" />
+          <img
+            src={img}
+            alt={alt}
+            width={135}
+            height={135}
+            className="max-h-[90px] max-w-[150px]"
+          />
         </div>
       </MotionDivLeftToRight>
       <p className="text-center font-mainFont text-paragraph3 text-quaternary">
