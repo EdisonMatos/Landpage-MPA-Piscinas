@@ -50,7 +50,7 @@ export default function ImagesGallery3Slides(props) {
     <div>
       <ImageGallery
         items={images}
-        showBullets={true}
+        showBullets={false}
         autoPlay={true}
         showFullscreenButton={false}
         useBrowserFullscreen={true}
