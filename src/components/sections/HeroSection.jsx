@@ -18,13 +18,20 @@ const whatsappContactLink = `https://wa.me/` + `${whatsappNumber}`
 export default function HeroSection() {
   return (
     <div className="font-mainFont" id="home">
-      <div
-        className="w-full bg-center bg-cover"
-        style={{ backgroundImage: 'url(' + bgImage + ')' }}
-      >
-        <div className="flex items-center">
+      <div className="relative w-full overflow-hidden">
+
+        <img
+          src={bgImage}
+          alt=""
+          fetchpriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <div className="relative z-10 flex items-center">
           <div className="w-full text-white justify-evenly">
             <div className="h-40 desktop3:h-46" />
+
             <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <div className="desktop1:w-[650px] flex flex-col gap-8">
                 <MotionDivLeftToRight>
@@ -32,6 +39,7 @@ export default function HeroSection() {
                     <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
                   </div>
                 </MotionDivLeftToRight>
+
                 <MotionDivLeftToRight>
                   <div className="text-center desktop1:text-left phone1:w-full phone1:font-medium phone1:text-paragraph4">
                     <p>
@@ -42,6 +50,7 @@ export default function HeroSection() {
                     </p>
                   </div>
                 </MotionDivLeftToRight>
+
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <MotionDivLeftToRight>
                     <div className="flex justify-center w-full desktop1:justify-start">
@@ -54,8 +63,6 @@ export default function HeroSection() {
                         <div className="flex p-4 text-center items-center">
                           <img
                             src={WhatsAppIcon}
-                            width={10}
-                            height={10}
                             className="h-[36px] w-[36px] mr-[24px]"
                             alt="WhatsApp Icon"
                           />
@@ -68,7 +75,8 @@ export default function HeroSection() {
                   </MotionDivLeftToRight>
                 </div>
               </div>
-              <div className="desktop1:w-[510px]  desktop1:h-[350px] flex items-center">
+
+              <div className="desktop1:w-[510px] desktop1:h-[350px] flex items-center">
                 <MotionDivDownToUp>
                   <ImagesGalleryHero
                     slide1={slide1}
