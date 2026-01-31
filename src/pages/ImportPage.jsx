@@ -1,62 +1,86 @@
-import { useState, useEffect } from 'react'
-import AboutUs from '../components/sections/AboutUs'
-import BackToTopButton from '../components/interactives/BackToTopButton'
-import FloatingWhatsappButton from '../components/interactives/FloatingWhatsappButton'
-import BannersCarousel from '../components/sections/BannersCarouselDesktop'
-import OurProducts from '../components/sections/OurProducts'
-import FrequentlyAskedQuestions from '../components/sections/FrenquentlyAskedQuestions'
-import Courses from '../components/sections/Courses'
-import AvoidAccidents from '../components/sections/AvoidAcidents'
-import Numbers from '../components/sections/Numbers'
+import { useState, useEffect, lazy, Suspense } from 'react'
+
 import NavbarSection from '../components/sections/NavbarSection'
 import HeroSection from '../components/sections/HeroSection'
-import CtaWhatsapp from '../components/sections/CtaWhatsapp'
-import Footer from '../components/sections/Footer'
-import PhoneBannersCarousel from '../components/sections/BannersCarouselPhone'
-import TabletBannersCarousel from '../components/sections/BannersCarouselTablet'
+
+// LAZY
+const AboutUs = lazy(() => import('../components/sections/AboutUs'))
+const Numbers = lazy(() => import('../components/sections/Numbers'))
+const OurProducts = lazy(() => import('../components/sections/OurProducts'))
+const AvoidAccidents = lazy(
+  () => import('../components/sections/AvoidAcidents'),
+)
+const CtaWhatsapp = lazy(() => import('../components/sections/CtaWhatsapp'))
+const Courses = lazy(() => import('../components/sections/Courses'))
+const FrequentlyAskedQuestions = lazy(
+  () => import('../components/sections/FrenquentlyAskedQuestions'),
+)
+const Footer = lazy(() => import('../components/sections/Footer'))
+
+const BackToTopButton = lazy(
+  () => import('../components/interactives/BackToTopButton'),
+)
+const FloatingWhatsappButton = lazy(
+  () => import('../components/interactives/FloatingWhatsappButton'),
+)
+
+// Carrosséis
+const BannersCarouselDesktop = lazy(
+  () => import('../components/sections/BannersCarouselDesktop'),
+)
+const PhoneBannersCarousel = lazy(
+  () => import('../components/sections/BannersCarouselPhone'),
+)
+const TabletBannersCarousel = lazy(
+  () => import('../components/sections/BannersCarouselTablet'),
+)
 
 export default function ImportPage() {
   const [carouselComponent, setCarouselComponent] = useState(null)
-
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth
+
       if (width <= 639) {
         setCarouselComponent(<PhoneBannersCarousel />)
-      } else if (width >= 640 && width <= 1023) {
+      } else if (width <= 1023) {
         setCarouselComponent(<TabletBannersCarousel />)
       } else {
-        setCarouselComponent(<BannersCarousel />)
+        setCarouselComponent(<BannersCarouselDesktop />)
       }
     }
 
     handleResize()
-
     window.addEventListener('resize', handleResize)
 
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
+    return () => window.removeEventListener('resize', handleResize)
   }, [])
 
   return (
-    <div>
+    <>
+      {/* LCP */}
       <NavbarSection />
+
       <main>
-        {' '}
         <HeroSection />
-        <AboutUs />
-        <Numbers />
-        <OurProducts />
-        <AvoidAccidents />
-        <CtaWhatsapp />
-        <Courses />
-        {carouselComponent}
-        <FrequentlyAskedQuestions />
-        <BackToTopButton />
-        <FloatingWhatsappButton />
-        <Footer />
+
+        {/* FORA DA LCP */}
+        <Suspense fallback={null}>
+          <AboutUs />
+          <Numbers />
+          <OurProducts />
+          <AvoidAccidents />
+          <CtaWhatsapp />
+          <Courses />
+
+          {carouselComponent}
+
+          <FrequentlyAskedQuestions />
+          <BackToTopButton />
+          <FloatingWhatsappButton />
+          <Footer />
+        </Suspense>
       </main>
-    </div>
+    </>
   )
 }
