@@ -51,7 +51,7 @@ export default function HeroSection() {
                 </div>
 
                 <div className="w-full phone2:w-full tablet2:w-auto">
-                  <MotionDivLeftToRight>
+                  <div>
                     <div className="flex justify-center w-full desktop1:justify-start">
                       <button
                         onClick={() =>
@@ -71,12 +71,12 @@ export default function HeroSection() {
                         </div>
                       </button>
                     </div>
-                  </MotionDivLeftToRight>
+                  </div>
                 </div>
               </div>
 
               <div className="desktop1:w-[510px] desktop1:h-[350px] flex items-center">
-                <MotionDivDownToUp>
+                <div>
                   <ImagesGalleryHero
                     slide1={slide1}
                     slide2={slide2}
@@ -87,7 +87,7 @@ export default function HeroSection() {
                     slide7={slide7}
                     slide8={slide8}
                   />
-                </MotionDivDownToUp>
+                </div>
               </div>
             </div>
           </div>
