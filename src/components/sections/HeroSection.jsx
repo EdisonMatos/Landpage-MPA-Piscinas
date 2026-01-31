@@ -21,7 +21,7 @@ export default function HeroSection() {
       <div className="relative w-full overflow-hidden">
         <img
           src={bgImage}
-          alt=""
+          alt="imagem de fundo"
           fetchpriority="high"
           decoding="async"
           className="absolute inset-0 w-full h-full object-cover"
@@ -63,6 +63,8 @@ export default function HeroSection() {
                           <img
                             src={WhatsAppIcon}
                             className="h-[36px] w-[36px] mr-[24px]"
+                            width={36}
+                            height={36}
                             alt="WhatsApp Icon"
                           />
                           <p className="flex items-center leading-none text-white text-title1">
