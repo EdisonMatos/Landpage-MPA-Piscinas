@@ -24,41 +24,57 @@ export default function ImagesGalleryHero({
       original: slide1,
       originalAlt: 'Produto para limpeza de piscina em São Bernardo do Campo',
       loading: 'eager', // primeira imagem
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide2,
       originalAlt: 'Produto para tratamento de água de piscina em São Paulo',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide3,
       originalAlt: 'Cloros para tratamento de piscinas no ABC Paulista',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide4,
       originalAlt: 'Cloros para tratamento de piscinas no Grande ABC Paulista',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide5,
       originalAlt: 'Cloros para tratamento de piscinas em São Bernardo',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide6,
       originalAlt: 'Produtos auxiliares para piscina em SBC - SP',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide7,
       originalAlt: 'Construção de piscinas na cidade de São Paulo',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
     {
       original: slide8,
       originalAlt: 'Acessórios e produtos para piscinas em SBC',
       loading: 'lazy',
+      originalHeight: 400,
+      originalWidth: 312,
     },
   ]
 
