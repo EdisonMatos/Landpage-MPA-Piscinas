@@ -85,3 +85,9 @@
   font-style: extrabold;
   font-display: swap;
 }
+
+.image-gallery-image {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+}
