@@ -19,7 +19,6 @@ export default function HeroSection() {
   return (
     <div className="font-mainFont" id="home">
       <div className="relative w-full overflow-hidden">
-
         <img
           src={bgImage}
           alt=""
@@ -34,13 +33,13 @@ export default function HeroSection() {
 
             <div className="flex flex-col desktop1:flex-row mx-auto mb-[40px] w-[88%] max-w-[1110px] items-center gap-10 tablet2:gap-14 desktop3:gap-20">
               <div className="desktop1:w-[650px] flex flex-col gap-8">
-                <MotionDivLeftToRight>
+                <div>
                   <div className="font-black leading-none text-center desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[40px]">
                     <h1>BEM VINDO AO MUNDO DAS PISCINAS!</h1>
                   </div>
-                </MotionDivLeftToRight>
+                </div>
 
-                <MotionDivLeftToRight>
+                <div>
                   <div className="text-center desktop1:text-left phone1:w-full phone1:font-medium phone1:text-paragraph4">
                     <p>
                       Aqui você será atendido de forma humanizada por
@@ -49,7 +48,7 @@ export default function HeroSection() {
                       <br /> Continue navegando e encontre o que você procura.
                     </p>
                   </div>
-                </MotionDivLeftToRight>
+                </div>
 
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <MotionDivLeftToRight>
