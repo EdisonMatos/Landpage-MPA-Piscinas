@@ -77,7 +77,7 @@ export default function HeroSection() {
                 </div>
               </div>
 
-              {/* <div className="desktop1:w-[510px] desktop1:h-[350px] flex items-center">
+              <div className="desktop1:w-[510px] desktop1:h-[350px] flex items-center">
                 <div>
                   <ImagesGalleryHero
                     slide1={slide1}
@@ -90,7 +90,7 @@ export default function HeroSection() {
                     slide8={slide8}
                   />
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
