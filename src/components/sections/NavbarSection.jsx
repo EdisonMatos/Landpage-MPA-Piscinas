@@ -104,7 +104,7 @@ export default function NavbarSection() {
               alt="Logo MPA Piscinas"
               width={80}
               height={80}
-              className={`mr-[80px] h-[80px] ${
+              className={`mr-[80px] h-[83px] ${
                 scrolling
                   ? 'h-[112px] max-h-[112px] transition-all duration-1000'
                   : 'h-[112px] max-h-[112px] transition-all duration-1000'

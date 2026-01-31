@@ -62,7 +62,7 @@ export default function HeroSection() {
                         <div className="flex p-4 text-center items-center">
                           <img
                             src={WhatsAppIcon}
-                            className="h-[36px] w-[36px] mr-[24px]"
+                            className="h-[24px] w-[24px] mr-[24px]"
                             width={36}
                             height={36}
                             alt="WhatsApp Icon"
