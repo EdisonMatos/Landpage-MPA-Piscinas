@@ -46,6 +46,7 @@ export default function CtaWhatsapp() {
                         className="h-[24px] w-[24px]"
                         width={36}
                         height={36}
+                        alt="Icone de WhatsApp"
                       ></img>
                       <p className="text-white text-center text-paragraph1 phone3:text-paragraph2 phone3:pr-[5px] tablet1:pr-[3%] tablet1:text-title1">
                         Fale com um consultor
