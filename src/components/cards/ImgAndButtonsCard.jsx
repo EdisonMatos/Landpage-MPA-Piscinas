@@ -23,9 +23,9 @@ export default function ImgAndButtonsCard(props) {
           <img
             src={img}
             alt={alt}
-            width={135}
-            height={180}
-            className="max-h-[150px] max-w-[135px]"
+            width={85}
+            height={90}
+            className="max-h-[90px] max-w-[135px]"
           />
         </MotionDivLeftToRight>
       </div>

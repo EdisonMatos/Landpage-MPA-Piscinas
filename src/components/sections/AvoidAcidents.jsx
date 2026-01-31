@@ -1,8 +1,8 @@
-import SectionHeader from "../sectionElements/SectionHeader";
-import imgPastilhaCloro from "../../assets/imgs/avoidAccidents/pastilhaCloro.webp";
-import resgateAcidente from "../../assets/imgs/avoidAccidents/resgateAcidente.webp";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
-import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import SectionHeader from '../sectionElements/SectionHeader'
+import imgPastilhaCloro from '../../assets/imgs/avoidAccidents/pastilhaCloro.webp'
+import resgateAcidente from '../../assets/imgs/avoidAccidents/resgateAcidente.webp'
+import MotionDivLeftToRight from '../animation/MotionDivLeftToRight'
+import MotionDivRightToLeft from '../animation/MotionDivRightToLeft'
 
 export default function AboutUs() {
   return (
@@ -16,7 +16,7 @@ export default function AboutUs() {
           <div className=" pb-[28px] desktop1:w-[48%] desktop1:py-0 desktop3:w-[46.3%]">
             <MotionDivRightToLeft>
               <img
-                 className=" flex phone1:w-[100%] phone1:h-[100%]"
+                className=" flex phone1:w-[100%] phone1:h-[100%]"
                 src={imgPastilhaCloro}
                 alt="Mão segurando pastilha de cloro para limpeza de piscina"
               />
@@ -24,7 +24,7 @@ export default function AboutUs() {
           </div>
           <div className="desktop1:w-[48.5%] desktop3:w-[46.3%]">
             <MotionDivLeftToRight>
-              <h1 className="  text-primary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone3:text-title2 phone1:pb-[10px] tablet1:text-title2 desktop1:text-title4">
+              <h1 className="text-secondary flex items-center phone1:w-[100%] phone1:font-medium phone1:text-title2 phone3:text-title2 phone1:pb-[10px] tablet1:text-title2 desktop1:text-title4">
                 Cuidados com o manuseio dos produtos
               </h1>
               <div className=" text-quaternary phone1:w-[100%] phone1:font-normal phone1:text-paragraph3 phone1:leading-[21px] desktop3:w-[100%]">
@@ -86,5 +86,5 @@ export default function AboutUs() {
         </div>
       </div>
     </div>
-  );
+  )
 }
