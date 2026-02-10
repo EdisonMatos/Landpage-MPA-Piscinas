@@ -144,7 +144,7 @@ const HthProducts = {
       img: hthCloros13,
       code: 6012,
       description: 'HTH FLUTUADOR ADVANCED GRANDE',
-      fispqLink: '',
+      fispqLink: 'https://hth.com.br/file/efcad24ca2c4f39b27ed282434a01dc0.pdf',
       category: 'cloros',
     },
   },
